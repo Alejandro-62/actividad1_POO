@@ -1,10 +1,10 @@
 # Ejercicio 1: Cálculo de edades (Ejercicio Resuelto 4)
-edadJuan = int(input("Ingrese la edad de Juan: "))  # Solicita la edad de Juan al usuario
+edadJuan=int(input("Ingrese la edad de Juan: ")) #Ingreso edad de Juan
 
 # Calcula las edades basándose en la proporción indicada
-edadDeAlberto = int(edadJuan * (2 / 3))  # Edad de Alberto
-edadDeAna = int(edadJuan * (4 / 3))  # Edad de Ana
-edadDeMama = int(edadJuan + edadDeAlberto + edadDeAna)  # Edad de la mamá
+edadDeAlberto=int(edadJuan * (2 / 3))  #Edad de Alberto
+edadDeAna=int(edadJuan * (4 / 3))  #Edad de Ana
+edadDeMama=int(edadJuan + edadDeAlberto + edadDeAna)  #Edad de la mamá
 
 # Muestra los resultados
 print("La edad de Juan es:", edadJuan)
